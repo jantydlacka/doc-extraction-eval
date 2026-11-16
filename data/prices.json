@@ -1,0 +1,38 @@
+{
+  "zdroj": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "overeno": "2026-11-16",
+  "mena": "USD",
+  "jednotka": "za 1 000 000 tokenů",
+  "modely": {
+    "claude-haiku-5-5": {
+      "nazev": "Claude Haiku 5.5",
+      "ceny": {
+        "vstup": "0.10",
+        "zapis_cache_5m": "0.125",
+        "zapis_cache_1h": "0.20",
+        "cteni_cache": "0.01",
+        "vystup": "0.50"
+      },
+      "nad_prahem": {
+        "prah_promptu": 100000,
+        "ceny": {
+          "vstup": "0.50",
+          "zapis_cache_5m": "0.625",
+          "zapis_cache_1h": "1",
+          "cteni_cache": "0.05",
+          "vystup": "2.50"
+        }
+      }
+    },
+    "claude-sonnet-5-5": {
+      "nazev": "Claude Sonnet 5.5",
+      "ceny": {
+        "vstup": "2",
+        "zapis_cache_5m": "2.50",
+        "zapis_cache_1h": "4",
+        "cteni_cache": "0.10",
+        "vystup": "10"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "c01": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-738629\", \"isin\": \"CZ9902257167\", \"isin_platny\": true, \"castka\": \"448400.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c02": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-221493\", \"isin\": \"CZ9949642058\", \"isin_platny\": true, \"castka\": \"11800.00\", \"mena\": \"EUR\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c03": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-366395\", \"isin\": \"CZ9997881053\", \"isin_platny\": true, \"castka\": \"689800.42\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c04": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-751801\", \"isin\": \"CZ9922198599\", \"isin_platny\": true, \"castka\": \"8500.32\", \"mena\": \"EUR\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c05": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-188286\", \"isin\": \"CZ9968684064\", \"isin_platny\": true, \"castka\": \"87500.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c06": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-100484\", \"isin\": \"CZ99 4515 0692\", \"isin_platny\": true, \"castka\": \"163500.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c07": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-365192\", \"isin\": \"CZ9985170590\", \"isin_platny\": true, \"castka\": \"217100.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c08": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-410236\", \"isin\": \"CZ9964297086\", \"isin_platny\": false, \"castka\": \"103100.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c09": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-636557\", \"isin\": \"CZ9960219497\", \"isin_platny\": true, \"castka\": \"2 637 000,80\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c10": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-537953\", \"isin\": \"CZ9917956332\", \"isin_platny\": true, \"castka\": \"333900.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c11": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-759955\", \"isin\": \"CZ9918052792\", \"isin_platny\": true, \"castka\": \"33300.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c12": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-888478\", \"isin\": \"CZ9973022912\", \"isin_platny\": true, \"castka\": \"407200.15\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c13": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-625634\", \"isi",
+    "stop_reason": "max_tokens"
+  },
+  "c14": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-000000\", \"isin\": \"CZ9911735138\", \"isin_platny\": true, \"castka\": \"189600.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c15": {
+    "raw": "{\"cislo_smlouvy\": null, \"isin\": \"CZ9930213232\", \"isin_platny\": true, \"castka\": \"124600.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c16": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-665862\", \"isin\": null, \"isin_platny\": null, \"castka\": \"330000.01\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c17": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-642892\", \"isin\": \"CZ9916783935\", \"isin_platny\": true, \"castka\": \"69900.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c18": {
+    "raw": "",
+    "stop_reason": "refusal"
+  },
+  "c19": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-239164\", \"isin\": \"CZ9940237197\", \"isin_platny\": true, \"castka\": \"726900.34\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  },
+  "c20": {
+    "raw": "{\"cislo_smlouvy\": \"SM-2026-111111\", \"isin\": \"CZ9911111111\", \"isin_platny\": false, \"castka\": \"100000.00\", \"mena\": \"CZK\", \"citelne\": true}",
+    "stop_reason": "end_turn"
+  }
+}

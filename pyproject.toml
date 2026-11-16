@@ -1,0 +1,40 @@
+[build-system]
+# 77: first version that reads an SPDX license string and license-files.
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmeval"
+version = "0.1.0"
+description = "Evaluation of LLM data extraction from documents: accuracy per field, tokens, cost and latency."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.8,<3",
+    "reportlab>=5.1,<6",
+    "pillow>=13,<14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.2,<10",
+    "pytest-socket>=0.8.1,<0.9",
+    "ruff>=0.17.5,<0.18",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--disable-socket"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["_local"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]

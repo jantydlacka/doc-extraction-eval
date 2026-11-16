@@ -1,0 +1,2 @@
+# Run outputs are published byte for byte as the tool wrote them (runs.csv uses CRLF).
+docs/results/** -text

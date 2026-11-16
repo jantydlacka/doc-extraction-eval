@@ -1,0 +1,21 @@
+id,typ,forma,stitky,zaludnost
+c01,smlouva_o_investici,text,,
+c02,smlouva_o_investici,text,,
+c03,vypis_z_uctu,text,,
+c04,vypis_z_uctu,text,,
+c05,potvrzeni_pokynu,text,,
+c06,potvrzeni_pokynu,text,isin_s_mezerami,ISIN je vytištěný po skupinách s mezerami.
+c07,smlouva_o_investici,text,neplatna_kontrolni_cislice,"ISIN má chybnou kontrolní číslici, isin_platny=false."
+c08,potvrzeni_pokynu,text,neplatna_kontrolni_cislice,"ISIN má chybnou kontrolní číslici, isin_platny=false."
+c09,vypis_z_uctu,text,castka_mezery_kc,Částka s mezerami mezi tisíci a se značkou Kč místo kódu měny. Částka přes milion s haléři.
+c10,smlouva_o_investici,text,castka_mezery_kc,"Částka s mezerami mezi tisíci a se značkou Kč místo kódu měny. Zápis „,-“ místo haléřů."
+c11,smlouva_o_investici,text,dve_castky,"Dvě částky: dokument původní výši investice opravuje, platí opravená."
+c12,vypis_z_uctu,text,dve_castky,"Dvě částky: počáteční a konečný zůstatek, platí konečný."
+c13,potvrzeni_pokynu,text,dve_castky,"Tři částky: objem pokynu, poplatek a celkem k úhradě; platí objem bez poplatku."
+c14,smlouva_o_investici,text,chybi_cislo_smlouvy,"Návrh smlouvy, číslo ještě nebylo přiděleno: cislo_smlouvy=null."
+c15,potvrzeni_pokynu,text,chybi_cislo_smlouvy,"Číslo smlouvy chybí, je tam jen číslo pokynu: cislo_smlouvy=null."
+c16,vypis_z_uctu,text,bez_isin,Peněžní účet bez cenného papíru: isin a isin_platny null.
+c17,smlouva_o_investici,sken,sken_rozmazany,"Obrázkový sken bez textové vrstvy, rozmazaný, ale čitelný."
+c18,potvrzeni_pokynu,sken,sken_natoceny,"Obrázkový sken bez textové vrstvy, natočený o několik stupňů."
+c19,vypis_z_uctu,sken,sken_natoceny;sken_sum,"Obrázkový sken bez textové vrstvy, mírně natočený a zašuměný."
+c20,smlouva_o_investici,sken,sken_necitelny,"Obrázkový sken bez textové vrstvy, zničený rozostřením a šumem: citelne=false, ostatní pole null."
